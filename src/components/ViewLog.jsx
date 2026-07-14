@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+import NavigationBar from './NavigationBar'
 
 const ViewLog = () => {
 
@@ -29,6 +30,7 @@ const ViewLog = () => {
 
     return (
         <div>
+            <NavigationBar/>
             <table class="table">
                 <thead>
                     <tr>
